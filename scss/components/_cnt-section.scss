@@ -1,0 +1,53 @@
+.join-section {
+  margin: 130rem 0;
+  border-radius: 10px;
+  background: var(--bg-secondary);
+  padding: 80rem;
+  &__title {
+    color: var(--c-text-white);
+    font-size: 36rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 47px;
+  }
+
+  &__subscribe {
+    max-width: 717rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    background: var(--c-terciary);
+    padding: 10rem 15rem;
+    gap: 10rem;
+
+    @include tablet {
+      flex-direction: column;
+      gap: 50rem;
+      background: transparent;
+
+      .join-section__input {
+        border-radius: 50px;
+        background: var(--c-terciary);
+        padding: 10rem 15rem;
+      }
+    }
+  }
+
+  &__btn {
+  }
+}
+.join {
+  &__input {
+    padding-left: 16rem;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+  }
+}
+.btn {
+}
+._primary {
+}
